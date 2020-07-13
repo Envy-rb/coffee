@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ActiveDebugProfile>kolyaKurs</ActiveDebugProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="AppForm\BoilingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AppForm\CashboxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AppForm\CoffeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AppForm\DraftListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AppForm\FAQForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AppForm\IngredientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AppForm\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
